@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #858585;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -116,7 +116,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #6f71ab !important;
+			color: #8D9BE2 !important;
 			text-decoration: none;
 		}
 
@@ -2702,9 +2702,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/setup_lowsat.jpg");
+		background-color: #221269;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								110%;
@@ -2751,7 +2749,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 12.25em;
 		}
 
 /* Footer */
