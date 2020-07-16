@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #858585;
+		color: #5a5a5a;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -121,7 +121,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: #5a5a5a;
 		font-weight: 400;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #5a5a5a;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2556,8 +2556,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		border: solid 3px #e0e0e0;
+		color: #555555 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2681,6 +2681,22 @@ input, select, textarea {
 			font-size: .9em;
 			line-height: 1.5em;
 			margin: 0;
+		}
+
+		.live-link {
+			padding: 4px 6px;
+			border: 1px solid #bdbeeb;
+			border-radius: 4px;
+		}
+
+		.live-link:hover {
+			background: #262880;
+			color: #bdbeeb !important;
+			border: none;
+		}
+
+		.link-spacing {
+			margin-top: 10px !important;
 		}
 
 /* Header */
