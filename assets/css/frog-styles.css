@@ -1,0 +1,151 @@
+.frog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lilypad {
+    position: relative;
+    width: 245px;
+    height: 130px;
+    background: radial-gradient(ellipse at top left, rgba(127, 201, 113, 1), rgba(79, 161, 64, 1));
+    border-radius: 80% 100%;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .lilypad-divot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    clip-path: polygon(-20% 80%, 30% 45%, -40% 35%);
+  }
+  
+  .frog-container {
+    position: relative;
+    width: 245px;
+    height: 130px;
+    top: 4%;
+    right: 2%;
+  }
+  
+  #frog-body {
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    background: radial-gradient(ellipse at top right, rgba(0, 161, 77, 1), rgba(2, 99, 49, 1));
+    border-radius: 15% 75% 25% 60%;
+    left: 44%;
+    top: 13%;
+    transform: rotate(4deg);
+  }
+  
+  #frog-thigh {
+    position: absolute;
+    width: 65px;
+    height: 28px;
+    background: radial-gradient(ellipse at top left, rgba(0, 161, 77, 1), rgba(2, 99, 49, 1));
+    border-radius: 75% 25% 60% 15%;
+    right: 11%;
+    bottom: 40%;
+    transform: rotate(-2deg);
+  }
+  
+  #frog-foot {
+    position: absolute;
+    width: 58px;
+    height: 18px;
+    background-color: rgb(2, 99, 49);
+    bottom: 32%;
+    right: 15%;
+    border-radius: 15% 30% 60% 15%;
+    transform: rotate(-17deg);
+  }
+  
+  #frog-foot:after {
+    width: 8px;
+    height: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    border: 11px solid transparent;
+    border-radius: 50%;
+    border-right-color: rgb(2, 99, 49);
+    top: -9%;
+    left: 0;
+    margin-left: -18px;
+  }
+  
+  #frog-foreleg1 {
+    position: absolute;
+    width: 12px;
+    height: 35px;
+    background: radial-gradient(ellipse at top left, rgba(0, 161, 77, 1), rgba(2, 99, 49, 1));
+    border-radius: 40%;
+    transform: rotate(-25deg);
+    top: 27%;
+    left: 50%;
+  }
+  
+  #frog-foreleg2 {
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: radial-gradient(ellipse at bottom left, rgba(0, 161, 77, 1), rgba(2, 99, 49, 1));
+    border-radius: 40%;
+    transform: rotate(35deg);
+    top: 46%;
+    left: 50%;
+  }
+  
+  #frog-hand {
+    position: absolute;
+    width: 22px;
+    height: 12px;
+    background-color: rgb(36,129,62);
+    bottom: 30%;
+    right: 49%;
+    border-radius: 15% 30% 60% 15%;
+  }
+  
+  #frog-head {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background: radial-gradient(ellipse at top left, rgba(0, 161, 77, 1), rgba(2, 99, 49, 1));
+    border-radius: 50px 10px 10px 50px / 58%;
+    transform: rotate(18deg);
+    left: 30%;
+    top: 5%;
+  }
+  
+  #frog-eye {
+    position: relative;
+    width: 20px;
+    height: 18px;
+    background: rgb(2, 99, 49);
+    border-radius: 50%;
+    left: 39%;
+    top: 5%;
+  }
+  
+  #frog-eye1 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    background: radial-gradient(ellipse at top left, rgba(127, 194, 99, 1), rgba(89, 150, 63, 1));
+    border-radius: 50%;
+    left: 2%;
+    top: 22%;
+  }
+  
+  #pupil {
+    position: absolute;
+    width: 70%;
+    height: 24%;
+    background: rgba(11, 18, 8, 1);
+    border-radius: 50%;
+    left: 7%;
+    top: 47%;
+    transform: rotate(12deg);
+  }
