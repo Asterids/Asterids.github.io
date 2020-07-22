@@ -240,50 +240,6 @@ input, select, textarea {
 		text-align: right;
 	}
 
-/* Speech Bubble */
-
-.blurb {
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
-
-.speech-bubble {
-	position: relative;
-	border: 4px solid #c1bdd9;
-	border-radius: .8em;
-	margin-bottom: 2em;
-}
-
-.speech-bubble:before {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 35%;
-	width: 0;
-	height: 0;
-	border: 20px solid;
-	border-color: transparent;
-	border-right-color: #c1bdd9;
-	border-left: 0;
-	margin-top: -20px;
-	margin-left: -20px;
-}
-
-.speech-bubble:after {
-	content: '';
-	position: absolute;
-	left: 6px;
-	top: 38%;
-	width: 0;
-	height: 0;
-	border: 16px solid;
-	border-color: transparent;
-	border-right-color: #fff;
-	border-left: 0;
-	margin-top: -20px;
-	margin-left: -20px;
-}
-
 /* Skills */
 
 .skills {
@@ -348,43 +304,6 @@ input, select, textarea {
 			.container {
 				width: 100% !important;
 				max-width: 100% !important;
-			}
-
-			.speech-bubble {
-				position: relative;
-				border: 4px solid #c1bdd9;
-				border-radius: .8em;
-				margin-bottom: 2em;
-			}
-
-			.speech-bubble:before {
-				content: '';
-				position: absolute;
-				left: 20%;
-				top: 0;
-				width: 0;
-				height: 0;
-				border: 20px solid;
-				border-color: transparent;
-				border-bottom-color: #c1bdd9;
-				border-top: 0;
-				margin-top: -20px;
-				margin-left: -20px;
-			}
-
-			.speech-bubble:after {
-				content: '';
-				position: absolute;
-				left: 20%;
-				top: 6px;
-				width: 0;
-				height: 0;
-				border: 20px solid;
-				border-color: transparent;
-				border-bottom-color: #fff;
-				border-top: 0;
-				margin-top: -20px;
-				margin-left: -20px;
 			}
 
 		}
@@ -2768,6 +2687,23 @@ input, select, textarea {
 			width: 12.25em;
 		}
 
+/* Scroll Colors */
+
+.color1 {
+	background: #221269 !important;
+	transition: 1s all;
+}
+
+.color2 {
+	background: #0c666d !important;
+	transition: 1s all;
+}
+
+.color3 {
+	background: #0e8151 !important;
+	transition: 1s all;
+}
+
 /* Footer */
 
 	#footer .icons {
@@ -3205,7 +3141,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background: #262880;
+				background: #221269;
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
