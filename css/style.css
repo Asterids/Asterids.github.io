@@ -49,14 +49,14 @@ body {
 }
 
 a {
-  color: #6d62a9;
+  color: #6046f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   font-weight: bold;
 }
 a:hover, a:active, a:focus {
-  color: #6b52fd;
+  color: #ba0cae;
   text-decoration: none;
 }
 
@@ -73,17 +73,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #4b456e;
+  background: #5e568a;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #4b456e;
+  background: #5e568a;
 }
 
 ::selection {
   color: #fff;
-  background: #4b456e;
+  background: #5e568a;
 }
 
 .skills-list {
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(75, 69, 110, 0.9);
+  background: rgba(51, 47, 84, 0.91);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -240,13 +240,17 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover .display-tc .fh5co-social-icons li a {
   color: #fff;
 }
+#fh5co-header .display-tc .fh5co-social-icons li a:hover,
+.fh5co-cover .display-tc .fh5co-social-icons li a:hover {
+  color: #9596e5;
+}
 #fh5co-header .display-tc .fh5co-social-icons li a i,
 .fh5co-cover .display-tc .fh5co-social-icons li a i {
   font-size: 30px;
 }
 
 #fh5co-features {
-  background: #4b456e;
+  background: #38345a;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -430,7 +434,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #655aa4;
+  background: #6e62af;
 }
 
 .fh5co-heading {
@@ -1130,6 +1134,7 @@ input[type="text"] {
 }
 .btn:hover, .btn:active, .btn:focus {
   box-shadow: none !important;
+  background: #ecebf9;
 }
 
 .btn-primary {
