@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-features h2 {
   color: #fff;
 }
-#fh5co-features .services-padding {
+#fh5co-features .strengths-padding {
   padding: 7em 0;
 }
 #fh5co-features .feature-left {
@@ -328,6 +328,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-resume,
 #fh5co-skills,
 #fh5co-started,
+#fh5co-projects,
 #fh5co-work,
 #fh5co-rec,
 #fh5co-pricing,
@@ -340,6 +341,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-resume,
   #fh5co-skills,
   #fh5co-started,
+  #fh5co-projects,
   #fh5co-work,
   #fh5co-rec,
   #fh5co-pricing,
@@ -348,7 +350,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-#fh5co-started {
+#fh5co-started, #fh5co-projects {
   border-bottom: none;
 }
 
@@ -835,6 +837,10 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: translate3d(0, 0, 0);
 }
 
+#fh5co-projects img {
+  width: 100%;
+}
+
 #fh5co-started {
   background-size: cover;
   background-position: center center;
@@ -843,14 +849,14 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   width: 100%;
 }
-#fh5co-started .fh5co-heading {
+#fh5co-started .fh5co-heading, #fh5co-projects .fh5co-heading {
   margin-bottom: 0;
 }
-#fh5co-started .fh5co-heading h2 {
+#fh5co-started .fh5co-heading h2, #fh5co-projects .fh5co-heading h2 {
   color: #4d4d4d;
   margin-bottom: 20px !important;
 }
-#fh5co-started .fh5co-heading p {
+#fh5co-started .fh5co-heading p, #fh5co-projects .fh5co-heading p {
   color: rgba(0, 0, 0, 0.8);
 }
 
