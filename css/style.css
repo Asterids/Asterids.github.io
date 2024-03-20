@@ -910,6 +910,14 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 18px !important;
   color: rgba(0, 0, 0, 0.3);
 }
+.stuff {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-github-with-circle {
+  font-size: 30px;
+}
 .fh5co-rec .rec-text .stuff {
   margin: 0;
   padding: 0;
